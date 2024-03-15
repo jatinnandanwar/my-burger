@@ -1,0 +1,44 @@
+.ContactData{
+    margin: 20px auto;
+    width: 80%;
+    text-align: center;
+    box-shadow: 0 2px 3px #ccc;
+    border: 1px solid #eee;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.Input{
+    /* display: block; */
+    padding: 5px 10px;
+    margin: 5px;
+    width: 100%;
+    border: 1px solid whitesmoke;
+    box-sizing: border-box;
+    font-size: 14px;
+    outline: none;
+    background-color: rgb(244, 244, 244);
+}
+
+.Input:focus{
+    /* border: none; */
+    background-color: #ccc;
+    /* outline: none; */
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (min-width: 600px){
+    .ContactData{
+        width: 100%;
+    }
+
+    .Input{
+        width: 80%;
+        font-size: 16px;
+    }
+}
